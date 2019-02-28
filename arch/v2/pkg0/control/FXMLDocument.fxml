@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="arch.v2.pkg0.control.FXMLDocumentController">
+   <children>
+      <GridPane alignment="CENTER" hgap="5.0" layoutX="187.0" layoutY="146.0" vgap="5.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="192.0" minWidth="10.0" prefWidth="164.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="126.0" minWidth="10.0" prefWidth="101.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+         </padding>
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Kąt:">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Prędkość początkowa:" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Button fx:id="BtShoot" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#shootButtonClicked" text="Strzelaj" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </GridPane.margin>
+            </Button>
+            <Label text="Prędkość wiatru:" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Masa strzały:" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Kierunek wiatru:" GridPane.rowIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="Wysokość początkowa:" GridPane.rowIndex="5">
+               <GridPane.margin>
+                  <Insets left="5.0" right="5.0" />
+               </GridPane.margin>
+            </Label>
+            <TextField fx:id="TfAngle" GridPane.columnIndex="1" />
+            <TextField fx:id="TfV0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="TfVWind" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="TfMass" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="TfH0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <ComboBox fx:id="CBWindDirection" onAction="#cbWindDirectionChange" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

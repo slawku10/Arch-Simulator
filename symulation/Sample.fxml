@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="symulation.SymulationController">
+   <children>
+      <Group id="Human" fx:id="human" layoutY="580.0">
+         <children>
+            <Circle centerX="20.0" centerY="20.0" fill="DODGERBLUE" radius="20.0" stroke="BLACK" strokeType="INSIDE" />
+            <Line endY="20.0" layoutX="19.5" layoutY="39.5" />
+            <Line endX="20.0" layoutX="19.5" layoutY="59.5" />
+            <Line endX="20.0" endY="10.0" layoutX="19.292892456054688" layoutY="59.29290771484375" />
+            <Line endY="20.0" layoutX="19.5" layoutY="59.5" />
+            <Line endY="20.0" layoutX="9.292893409729004" layoutY="79.29290771484375" startX="10.0" />
+            <Line endX="10.0" endY="20.0" layoutX="19.292892456054688" layoutY="80.29290771484375" />
+         </children>
+      </Group>
+      <Group layoutX="39.29289245605469" layoutY="627.0">
+         <children>
+            <Line endY="25.0" layoutX="0.2071075439453125" layoutY="0.20709228515625" startY="-5.0" />
+            <Line endX="10.0" endY="10.0" startY="-5.0" />
+            <Line endX="10.0" endY="-5.0" layoutY="16.0" startY="10.0" />
+         </children>
+      </Group>
+      <Group layoutX="1246.0" layoutY="50.0">
+         <children>
+            <Text fx:id="gora1" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2m" />
+            <Text fx:id="gora2" layoutY="533.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.4m" />
+            <Text fx:id="gora3" layoutY="492.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.6m" />
+            <Text fx:id="gora4" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.8m" />
+            <Text fx:id="gora5" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6m" />
+            <Text fx:id="gora6" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.2m" />
+            <Text fx:id="gora7" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.4m" />
+            <Text fx:id="gora8" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.6m" />
+            <Text fx:id="gora9" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.8m" />
+            <Text fx:id="gora10" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12m" />
+            <Text fx:id="gora11" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13.2m" />
+            <Text fx:id="gora12" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14.4m" />
+            <Text fx:id="gora13" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15.6m" />
+            <Text fx:id="gora14" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16.8m" />
+            <Text fx:id="gora15" strokeType="OUTSIDE" strokeWidth="0.0" text="18m" />
+         </children>
+      </Group>
+      <Group layoutX="4.0" layoutY="1.0">
+         <children>
+            <Line endX="1240.0" layoutY="678.0" strokeWidth="2.0" />
+            <Line endY="678.0" layoutX="1240.0" strokeWidth="2.0" />
+            <Line layoutX="1240.0" layoutY="637.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="596.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="555.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="514.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="473.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="432.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="391.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="350.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="309.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="268.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="227.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="186.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="145.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="104.0" startX="-10.0" />
+            <Line layoutX="1240.0" layoutY="63.0" startX="-10.0" />
+         </children>
+      </Group>
+      <Group layoutX="50.0" layoutY="678.0">
+         <children>
+            <Text fx:id="dol0" layoutX="0.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="0m" />
+            <Line endY="-10.0" />
+            
+            <Text fx:id="dol1" layoutX="41.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="1.2m" />
+            <Line endY="-10.0" layoutX="41.0" />
+            
+            <Text fx:id="dol2" layoutX="82.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="2.4m" />
+            <Line endY="-10.0" layoutX="82.0" />
+            
+            <Text fx:id="dol3" layoutX="123.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="3.6m" />
+            <Line endY="-10.0" layoutX="123.0" />
+            
+            <Text fx:id="dol4" layoutX="164.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="4.8m" />
+            <Line endY="-10.0" layoutX="164.0" />
+            
+            <Text fx:id="dol5" layoutX="205.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="6m" />
+            <Line endY="-10.0" layoutX="205.0" />
+            
+            <Text fx:id="dol6" layoutX="246.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="7.2m" />
+            <Line endY="-10.0" layoutX="246.0" />
+            
+            <Text fx:id="dol7" layoutX="287.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="8.4m" />
+            <Line endY="-10.0" layoutX="287.0" />
+            
+            <Text fx:id="dol8" layoutX="328.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="9.6m" />
+            <Line endY="-10.0" layoutX="328.0" />
+            
+            <Text fx:id="dol9" layoutX="369.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="10.8m" />
+            <Line endY="-10.0" layoutX="369.0" />
+            
+            <Text fx:id="dol10" layoutX="410.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="12m" />
+            <Line endY="-10.0" layoutX="410.0" />
+            
+            <Text fx:id="dol11" layoutX="451.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="13.2m" />
+            <Line endY="-10.0" layoutX="451.0" />
+            
+            <Text fx:id="dol12" layoutX="492.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="14.4m" />
+            <Line endY="-10.0" layoutX="492.0" />
+            
+            <Text fx:id="dol13" layoutX="533.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="15.6m" />
+            <Line endY="-10.0" layoutX="533.0" />
+            
+            <Text fx:id="dol14" layoutX="574.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="16.8m" />
+            <Line endY="-10.0" layoutX="574.0" />
+            
+            <Text fx:id="dol15" layoutX="615.5" layoutY="10.5" strokeType="OUTSIDE" strokeWidth="0.0" text="18m" />
+            <Line endY="-10.0" layoutX="615.0" />
+            
+            <Text fx:id="dol16" layoutX="656.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="19.2m" />
+            <Line endY="-10.0" layoutX="656.0" />
+            
+            <Text fx:id="dol17" layoutX="697.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="20.4m" />
+            <Line endY="-10.0" layoutX="697.0" />
+            
+            <Text fx:id="dol18" layoutX="738.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="21.6m" />
+            <Line endY="-10.0" layoutX="738.0" />
+            
+            <Text fx:id="dol19" layoutX="779.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="22.8m" />
+            <Line endY="-10.0" layoutX="779.0" />
+            
+            <Text fx:id="dol20" layoutX="820.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="24m" />
+            <Line endY="-10.0" layoutX="820.0" />
+            
+            <Text fx:id="dol21" layoutX="861.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="25.2m" />
+            <Line endY="-10.0" layoutX="861.0" />
+            
+            <Text fx:id="dol22" layoutX="902.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="26.4m" />
+            <Line endY="-10.0" layoutX="902.0" />
+            
+            <Text fx:id="dol23" layoutX="943.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="27.6m" />
+            <Line endY="-10.0" layoutX="943.0" />
+            
+            <Text fx:id="dol24" layoutX="984.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="28.8m" />
+            <Line endY="-10.0" layoutX="984.0" />
+            
+            <Text fx:id="dol25" layoutX="1025.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="30m" />
+            <Line endY="-10.0" layoutX="1025.0" />
+            
+            <Text fx:id="dol26" layoutX="1066.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="31.2m" />
+            <Line endY="-10.0" layoutX="1066.0" />
+            
+            <Text fx:id="dol27" layoutX="1107.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="32.4m" />
+            <Line endY="-10.0" layoutX="1107.0" />
+            
+            <Text fx:id="dol28" layoutX="1148.5" layoutY="10.55078125" strokeType="OUTSIDE" strokeWidth="0.0" text="33.6m" />
+            <Line endY="-10.0" layoutX="1148.0" />
+         </children>
+      </Group>
+      
+      
+
+      
+
+     
+   </children>
+</Pane>
